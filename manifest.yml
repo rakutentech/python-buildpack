@@ -26,6 +26,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libffi-3.2.1-linux-x64-5f5bf32c.tgz
   sha256: ff6f2f33aa3d3978a2c1764d6992ac8c384bc84a4c5d193deef891eef2555dc9
 - name: libmemcache
@@ -33,6 +36,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libmemcache-1.0.18-linux-x64-6d33aa02.tgz
   sha256: '009a3476197030e30d0ce924cc044ee4851ef27324e132b29fd12d8cde071915'
 - name: miniconda2
@@ -42,6 +48,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   source: https://github.com/conda/conda/archive/4.5.12.tar.gz
 - name: miniconda3
   version: 4.5.12
@@ -50,6 +59,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   source: https://github.com/conda/conda/archive/4.5.12.tar.gz
 - name: pip
   version: 9.0.3
@@ -58,11 +70,17 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
 - name: pip-pop
   version: 0.1.3
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/pip-pop/pip-pop-0.1.3-fc106ef6.tar.gz
   sha256: fc106ef6e87c9da64ca3b5eda2a4b531bdd2d1965304e9385772c546c6a6fe59
 - name: pipenv
@@ -71,6 +89,9 @@ dependencies:
   sha256: eeaa1c70e6fc736a2d2df5b385158d40c34d3f3197061ae40c412ac3fef435a4
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://files.pythonhosted.org/packages/fd/e9/01822318551caa0d62a181ba3b10f0f3757bb1e270da97165bd52db92776/pipenv-2018.11.26.tar.gz
 - name: pipenv
   version: 2018.11.26
@@ -85,6 +106,9 @@ dependencies:
   sha256: 61573fffe50ebe535f53ba5c759e00962b42c0894b8ff78453bc1d9a5fc5c46e
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/2.7.14/Python-2.7.14.tgz
 - name: python
   version: 2.7.14
@@ -99,6 +123,9 @@ dependencies:
   sha256: a051d3cb8f89e1ac16ecec2d52cd3447b6b9e549d8f462da8629eeee14d09db0
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz
 - name: python
   version: 2.7.15
@@ -113,6 +140,9 @@ dependencies:
   sha256: 5fe3e85d6e9cea671019f11337929a8da21a2b0b6ea3ad180c7d9dad5f3258e1
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/3.4.8/Python-3.4.8.tgz
 - name: python
   version: 3.4.8
@@ -127,6 +157,9 @@ dependencies:
   sha256: ab8a6375ebfa2ea07ae9aa93d02bc757b3061cd06e9c72ff34e033221586f343
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/3.4.9/Python-3.4.9.tgz
 - name: python
   version: 3.4.9
@@ -141,6 +174,9 @@ dependencies:
   sha256: 448e6d7846a7c9fee4badb9f4fd7fb2b21c9de6a141f9df4866aedd31e124adc
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/3.5.5/Python-3.5.5.tgz
 - name: python
   version: 3.5.5
@@ -155,6 +191,9 @@ dependencies:
   sha256: e0bd0cbf5ca4e3879b6585747b83b2691e59951d058b630ead40381b47389b93
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/3.5.6/Python-3.5.6.tgz
 - name: python
   version: 3.5.6
@@ -169,6 +208,9 @@ dependencies:
   sha256: 2ef997d110c14e5cba3be0d229ee8caa963268027b915c3f427d1cf3dd4f5994
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/3.6.7/Python-3.6.7.tgz
 - name: python
   version: 3.6.7
@@ -183,6 +225,9 @@ dependencies:
   sha256: c8a7acb56fd84ad77ab273e0f68af741eae772678878aa09fbfb5af62f4d40dd
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
 - name: python
   version: 3.6.8
@@ -212,6 +257,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   source: https://files.pythonhosted.org/packages/3b/17/81a4ab4c94e9c78f98dfaad0208994129213089361dc53a7cd8de177d1e3/setuptools-40.7.1.zip
 include_files:
 - CHANGELOG
