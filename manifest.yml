@@ -1,74 +1,95 @@
 ---
 language: python
-
 url_to_dependency_map:
-  - match: python-(\d+\.\d+\.\d+)
-    name: python
-    version: $1
-  - match: libmemcache
-    name: libmemcache
-    version: 1.0.18
-  - match: libffi
-    name: libffi
-    version: "3.1"
-
+- match: python-(\d+\.\d+\.\d+)
+  name: python
+  version: "$1"
+- match: libmemcache
+  name: libmemcache
+  version: 1.0.18
+- match: libffi
+  name: libffi
+  version: '3.1'
 dependencies:
-  - name: libmemcache
-    version: 1.0.18
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/libmemcache.tar.gz
-    md5: 6b40600ab7c5bd52b5c6eedd18efb651
-  - name: libffi
-    version: "3.1"
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/libffi.tar.gz
-    md5: 83028a299b8ac323bda8a56c5c70d4cd
-  - name: python
-    version: 2.7.9
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-2.7.9.tar.gz
-    md5: 554d0e369fdcc4aa9234315830d096b3
-  - name: python
-    version: 2.7.10
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-2.7.10.tar.gz
-    md5: e061640801de23f55a925c598912dd5a
-  - name: python
-    version: 3.3.5
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.3.5.tar.gz
-    md5: 61fcd9b643bbd4580b0f81ecc4958340
-  - name: python
-    version: 3.3.6
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.3.6.tar.gz
-    md5: abe5203007e0fc81529b4a1e9d11fa94
-  - name: python
-    version: 3.4.2
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.4.2.tar.gz
-    md5: c8ea4fae5f23db599d2dcfda0cd578df
-  - name: python
-    version: 3.4.3
-    cf_stacks:
-      - cflinuxfs2
-    uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.4.3.tar.gz
-    md5: 00cfe29eeea98638e60f24f3a91e6627
-
+- name: libmemcache
+  version: 1.0.18
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/libmemcache.tar.gz
+  md5: 6b40600ab7c5bd52b5c6eedd18efb651
+- name: libffi
+  version: '3.1'
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/libffi.tar.gz
+  md5: 83028a299b8ac323bda8a56c5c70d4cd
+- name: python
+  version: 2.7.9
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-2.7.9.tar.gz
+  md5: 554d0e369fdcc4aa9234315830d096b3
+- name: python
+  version: 2.7.10
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-2.7.10.tar.gz
+  md5: e061640801de23f55a925c598912dd5a
+- name: python
+  version: 3.3.5
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.3.5.tar.gz
+  md5: 61fcd9b643bbd4580b0f81ecc4958340
+- name: python
+  version: 3.3.6
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.3.6.tar.gz
+  md5: abe5203007e0fc81529b4a1e9d11fa94
+- name: python
+  version: 3.4.2
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.4.2.tar.gz
+  md5: c8ea4fae5f23db599d2dcfda0cd578df
+- name: python
+  version: 3.4.3
+  cf_stacks:
+  - cflinuxfs2
+  - dev
+  - stg
+  - pro
+  uri: https://pivotal-buildpacks.s3.amazonaws.com/python/binaries/cflinuxfs2/python-3.4.3.tar.gz
+  md5: 00cfe29eeea98638e60f24f3a91e6627
 exclude_files:
-  - .git/
-  - .gitignore
-  - .gitmodules
-  - cf_spec/
-  - log/
-  - test/
-  - bin/package
-  - buildpack-packager/
-  - python_buildpack-*v*.zip
+- ".git/"
+- ".gitignore"
+- ".gitmodules"
+- cf_spec/
+- log/
+- test/
+- bin/package
+- buildpack-packager/
+- python_buildpack-*v*.zip
