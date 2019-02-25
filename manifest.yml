@@ -29,24 +29,36 @@ dependencies:
   version: 3.2.1
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libffi-3.2.1-linux-x64-5f5bf32c.tgz
   sha256: ff6f2f33aa3d3978a2c1764d6992ac8c384bc84a4c5d193deef891eef2555dc9
 - name: libmemcache
   version: 1.0.18
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libmemcache-1.0.18-linux-x64-6d33aa02.tgz
   sha256: '009a3476197030e30d0ce924cc044ee4851ef27324e132b29fd12d8cde071915'
 - name: miniconda2
   version: 4.5.4
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: http://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh
   sha256: 77d95c99996495b9e44db3c3b7d7981143d32d5e9a58709c51d35bf695fda67d
 - name: miniconda3
   version: 4.5.4
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: http://repo.continuum.io/miniconda/Miniconda3-4.5.4-Linux-x86_64.sh
   sha256: 80ecc86f8c2f131c5170e43df489514f80e3971dd105c075935470bbf2476dea
 - name: pip
@@ -55,10 +67,16 @@ dependencies:
   sha256: 7bf48f9a693be1d58f49f7af7e0ae9fe29fd671cde8a55e6edca3581c4ef5796
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: pip-pop
   version: 0.1.1
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/pip-pop/pip-pop-0.1.1-d410583a.tar.gz
   sha256: c928ade1cc134d1b67851caf85a856c8fcc8fc960814385eef1fef2482991bc7
 - name: pipenv
@@ -67,10 +85,16 @@ dependencies:
   sha256: 7f1be101c62d68c50d42ccf2ab0456acb5a1d9bf6d5387dc189b0ee6c8c1131e
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 2.7.14
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.14-linux-x64-30d9c08f.tgz
   sha256: 30d9c08fea5f1362d1039c5ebc288d6e70d86d7a5acf82903c4faefadea6bd36
 - name: python
@@ -79,10 +103,16 @@ dependencies:
   sha256: d8ee0ad8aee534c3bf325970f3451a6a9d2d0e7b181d2948ebbc6eb24175a0bc
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.3.6
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.3.6-linux-x64-4b95efa1.tgz
   sha256: 3a8976729b3d4e0362e731fbb77128ef80260cf056c787c80175ad8671fbdb2f
 - name: python
@@ -91,10 +121,16 @@ dependencies:
   sha256: eed7866ff032849d900b85f0576a946a08f0d0107f3ad75b0f55a95d56ababfa
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.4.7
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.4.7-linux-x64-c2cb934a.tgz
   sha256: c2cb934a8d90b0d24bef0f515ec14aabe21bddced44796d661de8b5b87d928c7
 - name: python
@@ -103,10 +139,16 @@ dependencies:
   sha256: acd557c2f486673cdd07d98958baa2c70ca001f4573b95d35a46c27b51f794e7
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.5.4
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.5.4-linux-x64-5c7aa3b0.tgz
   sha256: 5c7aa3b080032cdcf44d385516d2e53cd9efc27eb75bc305ee01b4981c842ac6
 - name: python
@@ -115,24 +157,36 @@ dependencies:
   sha256: 6d98b7cc7aafad47364269b49706464c401035933476ef7fb455f522f8a8fbf9
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.6.4
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.6.4-linux-x64-8932d266.tgz
   sha256: 8932d26669b3b9a8504121dd13878894536938b385ef803168ce87b8f925b4d2
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.6.5
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.6.5-linux-x64-81bdefa8.tgz
   sha256: 81bdefa8623644a32b89409fa2734d1be7891df282a2baac079eb925ce942163
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: setuptools
   version: 39.2.0
   uri: https://buildpacks.cloudfoundry.org/dependencies/setuptools/setuptools-39.2.0-f7cddbb5.zip
   sha256: f7cddbb5f5c640311eb00eab6e849f7701fa70bf6a183fc8a2c33dd1d1672fb2
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 include_files:
 - CHANGELOG
 - CONTRIBUTING.md
