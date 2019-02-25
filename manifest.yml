@@ -26,6 +26,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libffi-3.2.1-linux-x64-5f5bf32c.tgz
   sha256: ff6f2f33aa3d3978a2c1764d6992ac8c384bc84a4c5d193deef891eef2555dc9
 - name: libmemcache
@@ -33,8 +36,11 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/python/libmemcache-1.0.18-linux-x64-6d33aa02.tgz
-  sha256: 009a3476197030e30d0ce924cc044ee4851ef27324e132b29fd12d8cde071915
+  sha256: '009a3476197030e30d0ce924cc044ee4851ef27324e132b29fd12d8cde071915'
 - name: miniconda2
   version: 4.5.4
   uri: https://repo.continuum.io/miniconda/Miniconda2-4.5.4-Linux-x86_64.sh
@@ -42,6 +48,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
 - name: miniconda3
   version: 4.5.4
   uri: https://repo.continuum.io/miniconda/Miniconda3-4.5.4-Linux-x86_64.sh
@@ -49,6 +58,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
 - name: pip
   version: 9.0.3
   uri: https://buildpacks.cloudfoundry.org/dependencies/pip/pip-9.0.3-7bf48f9a.tar.gz
@@ -56,11 +68,17 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
 - name: pip-pop
   version: 0.1.1
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   uri: https://buildpacks.cloudfoundry.org/dependencies/manual-binaries/pip-pop/pip-pop-0.1.1-d410583a.tar.gz
   sha256: c928ade1cc134d1b67851caf85a856c8fcc8fc960814385eef1fef2482991bc7
 - name: pipenv
@@ -69,6 +87,9 @@ dependencies:
   sha256: 929eca0c811c6c1b1d0c637c0475f32bd64fb74ca875c8524d2e2aa82127d85a
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: pipenv
   version: 2018.7.1
   uri: https://buildpacks.cloudfoundry.org/dependencies/pipenv/pipenv-v2018.7.1-cflinuxfs3-9d0d2c8d.tgz
@@ -81,6 +102,9 @@ dependencies:
   sha256: 972402429ca6cd32a0728b7856aed86c6690d6233161d68b36e7709bf4927f01
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 2.7.14
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.14-linux-x64-cflinuxfs3-95f23a26.tgz
@@ -93,6 +117,9 @@ dependencies:
   sha256: e0dd33dd7487d56a18a9c50a5d7a9a268727ac3b1d50332247a0998d78d5d922
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 2.7.15
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.15-linux-x64-cflinuxfs3-63255176.tgz
@@ -105,6 +132,9 @@ dependencies:
   sha256: 905e51c6312b59a16d4e7afdaf8f5567d7ff11ecc31349c229d20479acf379b2
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.4.8
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.4.8-linux-x64-cflinuxfs3-2554bb9d.tgz
@@ -117,6 +147,9 @@ dependencies:
   sha256: d02592a70bf05f7b04c10550517a716fad028fbdb163c67b8e5505bc7699fd9f
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.4.9
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.4.9-linux-x64-cflinuxfs3-729999fd.tgz
@@ -129,6 +162,9 @@ dependencies:
   sha256: e1524caeacf64bfba97e8034c108c959a8c7f188e15e11419cc0bd83e53f56f2
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.5.5
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.5.5-linux-x64-cflinuxfs3-0d1517b8.tgz
@@ -141,6 +177,9 @@ dependencies:
   sha256: e482c9f43ca07f924f064e4e013aea5cadc235892cd54bee67efa5d4ac1f00ec
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.5.6
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.5.6-linux-x64-cflinuxfs3-2e41cb57.tgz
@@ -153,12 +192,18 @@ dependencies:
   sha256: 3909552f7aa4acae38565f9850d5d1cd9d05a3f6ce7c444f6071b020d55fded9
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.6.6
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.6.6-linux-x64-cflinuxfs2-429ba7c4.tgz
   sha256: 429ba7c441a9a76e98f927137b8425dc55316d2a72ce2ab27324c48d0ee34c3e
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: python
   version: 3.6.6
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-3.6.6-linux-x64-cflinuxfs3-456731c7.tgz
@@ -178,6 +223,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
 include_files:
 - CHANGELOG
 - CONTRIBUTING.md
